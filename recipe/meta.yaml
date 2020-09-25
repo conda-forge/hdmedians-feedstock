@@ -1,18 +1,18 @@
 {% set name = "hdmedians" %}
-{% set version = "0.13" %}
+{% set version = "0.14" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 230f80e064d905c49a1941af1b7e806e2f22b3c9a90ad5c21fd17d72636ea277
+  sha256: 766eb7281b68cd1032b0d3addc4113abf4d63c249261914883f8304db7d29750
 
 build:
-  number: 1002
+  number: 0
   skip: true  # [win]
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   build:
@@ -35,7 +35,7 @@ about:
   home: http://github.com/daleroberts/hdmedians
   license: GPL3
   license_family: GPL3
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: High-dimensional medians
 
 extra:
