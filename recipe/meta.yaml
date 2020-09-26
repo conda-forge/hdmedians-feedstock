@@ -1,5 +1,5 @@
 {% set name = "hdmedians" %}
-{% set version = "0.14" %}
+{% set version = "0.14.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 766eb7281b68cd1032b0d3addc4113abf4d63c249261914883f8304db7d29750
+  sha256: ccefaae26302afd843c941b3b662f1119d5a36dec118077310f811a7a1ed8871
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
