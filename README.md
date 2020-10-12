@@ -5,11 +5,9 @@ Home: http://github.com/daleroberts/hdmedians
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdmedians-feedstock/blob/master/LICENSE.txt)
 
 Summary: High-dimensional medians
-
-
 
 Current build status
 ====================
@@ -29,59 +27,73 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_numpy1.16python3.6.____cpython</td>
+              <td>linux_64_c_compiler_version7numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_numpy1.16python3.7.____cpython</td>
+              <td>linux_64_c_compiler_version7numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_numpy1.16python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version7numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.16python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7numpy1.16python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_numpy1.18python3.6.____73_pypy</td>
+              <td>linux_64_c_compiler_version7numpy1.18python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.18python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7numpy1.18python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.16python3.6.____cpython</td>
+              <td>linux_64_c_compiler_version7numpy1.19python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.16python3.7.____cpython</td>
+              <td>osx_64_c_compiler_version10numpy1.16python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10numpy1.16python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.16python3.8.____cpython</td>
+              <td>osx_64_c_compiler_version10numpy1.16python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.16python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10numpy1.16python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.18python3.6.____73_pypy</td>
+              <td>osx_64_c_compiler_version10numpy1.16python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.18python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10numpy1.16python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10numpy1.18python3.6.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10numpy1.18python3.6.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_c_compiler_version10numpy1.19python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=413&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdmedians-feedstock?branchName=master&jobName=osx&configuration=osx_64_c_compiler_version10numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
