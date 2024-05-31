@@ -10,7 +10,7 @@ source:
   sha256: b47aecb16771e1ba0736557255d80ae0240b09156bff434321de559b359ac2d6
 
 build:
-  number: 5
+  number: 6
   skip: true  # [win]
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
@@ -20,7 +20,8 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
-    - {{ compiler('c') }}
+    - {{ compiler("c") }}
+    - {{ stdlib("c") }}
   host:
     - cython >=0.23
     - numpy
@@ -28,7 +29,6 @@ requirements:
     - python
     - nose
   run:
-    - {{ pin_compatible('numpy') }}
     - python
 test:
   imports:
